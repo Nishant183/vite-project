@@ -1,0 +1,245 @@
+body {
+  margin:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.header nav a {
+  margin: 0 10px;
+  color: white;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.about-section h2, .project-section h2, .contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.projects-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.projects-list .project-item {
+  margin-bottom: 30px;
+}
+
+.projects-list .project-item h3 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.projects-list .project-item a {
+  color: blue;
+}
+
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.contact-section a {
+  color: blue;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.props {
+  padding: 15px;
+  text-align: center;
+}
+
+.profile-card {
+  border: 1px solid slateblue;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 300px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hooks {
+  text-align: center;
+  margin: 125px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  max-width: 400px;
+  border: 1px solid slateblue;
+  border-radius: 5px;
+}
+
+Button {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin:50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0,1);
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+  color: black;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"], select {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form-data {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #e9f7f9;
+  border: 1px solid #a3d2d6;
+  border-radius: 4px;
+}
+
+.form-data p {
+  font-size: 16px;
+  color: #555;
+}
+
+strong {
+  color: #333;
+}
+
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+  padding-top: 40px;
+  min-height: 100vh;
+  color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.color-palette {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.custom-color-picker {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.custom-color-picker input:hover {
+  background-color: #555;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93.5vh;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+.clock {
+  font-family: 4rem;
+  font-family:'Courier New', Courier, monospace;
+  color: cyan;
+  background-color: darkslategray;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+/*
+div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.div-router {
+  background-color: lightgray;
+  padding: 10px
+}
+
+.nav-router {
+  background-color: gray;
+  padding: 2px
+}
